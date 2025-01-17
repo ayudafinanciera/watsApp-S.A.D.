@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrir WhatsApp</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            // Reemplaza este número por el que desees contactar
+            var telefono = "+573228500704"; // Número de teléfono de destino
+            var mensaje = "¡Hola! Quiero contactarte a través de WhatsApp."; // Mensaje predefinido
+            var enlace = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje);
+            window.location.href = enlace;
+        }
+    </script>
+</head>
+<body>
+    <h1>Redirigiendo a WhatsApp...</h1>
+    <p>Si no eres redirigido automáticamente, <a href="#" onclick="window.location.href='https://wa.me/+573228500704';">haz clic aquí</a>.</p>
+</body>
+</html>
